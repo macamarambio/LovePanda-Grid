@@ -20,24 +20,22 @@ h5 {
 header {
 	background-color: #F78E69;
 	text-align: right;
-	height: 150px;
 	color: #FFF;
-	padding-right: 12px;
+	padding: 2%;
 }
 /*PRIMERA SECCIÓN*/
 .panda-image {
-	height: 550px;
 	filter: grayscale(100%);
 }
 
 .section-text {
 	background-color: #ABE188;
-	border-top: 20px solid #F78E69;
-	border-bottom: 20px solid #F78E69;
+	border-top: 15px solid #F78E69;
+	border-bottom: 15px solid #F78E69;
 	height: 500px;
+	padding: 5% 0;
 }
 .text {
-	margin-top: 5%;
 	background-color: #F78E69;
 	color: #FFF;
 	padding: 20px;
@@ -45,5 +43,27 @@ header {
 	text-align: center;
 }
 
+.pictures {
+	height: 400px;
+	background-color: #ABE188;
+	padding: 3% 0;
+	text-align: center;
+	font-size: 30px;
+	color: #FFF;
+	border-top: 15px solid #F78E69;
+	border-bottom: 15px solid #F78E69;
+}
 
+.pictures img{
+	margin-top: 20%;
+	border: 5px solid #FFF;
+}
+
+footer {
+	background-color: #F78E69;
+	text-align: right;
+	color: #FFF;
+	padding: 1%;
+}
+}
 
