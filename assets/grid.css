@@ -92,3 +92,9 @@ formula para el ancho de las columnas (numero columnas / 12) * 100
   width: 100%;
 }
 
+@media all and (max-width: 450px){
+  [class*="col-"]{
+    width: 100%;
+  }
+}
+
